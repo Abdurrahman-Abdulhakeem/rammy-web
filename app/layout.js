@@ -33,8 +33,8 @@ export default function RootLayout({ children }) {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
 
-        {/* <link rel="icon"  href="/" /> */}
-        {/* <link rel="apple-touch-icon" href="/" /> */}
+        <link rel="icon" href="/AA_logo.png" />
+        <link rel="apple-touch-icon" href="/AA_logo.png" />
         <meta
           name="keywords"
           content="Abdurrahman, abdulhakeem, abdulrahman, rammy, web developer, development, software development, programming, solutions, "
@@ -50,8 +50,8 @@ export default function RootLayout({ children }) {
           property="og:description"
           content="Providing expert web development services to create high-quality digital solutions tailored to your needs."
         />
-        <meta property="og:image" content="/rammy-2.jpg" />
-        {/* <meta property="og:url" content="wesite link here" /> */}
+        <meta property="og:image" content="/rammy-3.jpg" />
+        <meta property="og:url" content="https://abdurrahman.ng" />
         <meta property="og:type" content="website" />
         {/*  Twitter Card meta tags for Twitter sharing  */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -63,11 +63,11 @@ export default function RootLayout({ children }) {
           name="twitter:description"
           content="Providing expert web development services to create high-quality digital solutions tailored to your needs."
         />
-        <meta name="twitter:image" content="/rammy-2.jpg" />
-        <meta name="twitter:site" content="@yourtwitterhandle" />
-        <meta name="twitter:creator" content="@yourtwitterhandle" />
+        <meta name="twitter:image" content="/rammy-3.jpg" />
+        <meta name="twitter:site" content="@rammymedia" />
+        <meta name="twitter:creator" content="@rammymedia" />
 
-        {/* <link rel="canonical" href="https://yourwebsite.com" /> */}
+        <link rel="canonical" href="https://abdurrahman.ng" />
       </head>
 
       <body
