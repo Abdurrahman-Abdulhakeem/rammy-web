@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grey+Qo&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500;1,700&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,6 +20,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -29,5 +37,32 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .anim-delay {
+    animation-delay: 0.5s;
+  }
+}
+
+@layer components {
+  @keyframes fadeIn {
+    0% { opacity: 0 }
+    100% { opacity: 1 }
+  }
+
+  .fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+
+  @keyframes fadeInArrow {
+    0% { opacity: 0 ; transform: translateY(-20%);}
+    50% { opacity: 0.5; transform: translateY(0%);}
+    75% {opacity: 0.8;}
+    95% {opacity: 1; transform: translateY(15%); }
+    100% { opacity: 0.6; transform: translateY(25%);}
+  }
+
+  .fadein-arrow {
+    animation: fadeInArrow 2s ease-in-out infinite;
   }
 }
