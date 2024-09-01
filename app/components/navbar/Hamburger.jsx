@@ -90,19 +90,20 @@ const Hamburger = ({ targetSection, children }) => {
 
               <div className="mt-7 text-black  font-bold sm:max-w-48 text-right">
                 <p>
-                  <a className="hover:text-slate-700" href="">
+                  <a className="hover:text-slate-700" target="_blank" href="https://www.linkedin.com/in/abdurrahman-abdulhakeem-322890239">
                     LINKEDIN
                   </a>
                 </p>
                 <p>
-                  <a className="hover:text-slate-700" href="">
+                  <a className="hover:text-slate-700" target="_blank" href="https://github.com/Abdurrahman-Abdulhakeem">
                     GITHUB
                   </a>
                 </p>
                 <p>
                   <a
                     className="flex items-center justify-end self-end group"
-                    href=""
+                    href="https://web.facebook.com/profile.php?id=100063591285812"
+                    target="_blank"
                   >
                     {" "}
                     <span className="first:group-hover:text-slate-700">

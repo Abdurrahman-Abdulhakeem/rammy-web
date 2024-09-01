@@ -20,7 +20,7 @@ const Navbar = () => {
     <header className="flex items-center justify-end px-10 h-16 mx-auto">
       <div className="space-x-5">
         {NavLinks.map((nav) => (
-          <Link href={nav.path} key={nav.path} className="font-bold text-lg hover:text-gray-400 transition">
+          <Link href={nav.path} key={nav.path} className="font-bold text-lg text-white hover:text-gray-400 transition">
             {" "}
             {nav.title}{" "}
           </Link>

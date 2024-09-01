@@ -12,7 +12,7 @@ function Home() {
   return (
     <Hamburger targetSection={targetSection}>
       <Navbar />
-      <section className="h-[95vh] md:h-[80vh]">
+      <section className="h-[95vh] text-white md:h-[80vh]">
         <div className="flex flex-col items-end p-20 text-2xl leading-tight font-medium h-[65vh] md:h-[40vh]">
           <h1>DEVELOPMENT</h1>
           <h1>DIGITAL</h1>
@@ -34,7 +34,7 @@ function Home() {
         </div>
       </section>
 
-      <section className=" bg-black py-36 mt-10 relative after:absolute after:bg-black after:content-[''] after:-bottom-8 after:left-0 after:h-28 after:w-full after:-skew-y-6 ">
+      <section className=" bg-black text-white py-36 mt-10 relative after:absolute after:bg-black after:content-[''] after:-bottom-8 after:left-0 after:h-28 after:w-full after:-skew-y-6 ">
         <div className="container mx-auto block space-y-52 lg:space-y-0 lg:flex items-center gap-20 justify-between">
           <div className="md:flex-1">
             <h2 className="font-bold text-2xl tracking-tight">
@@ -119,7 +119,7 @@ function Home() {
 
       <ScalingSection
         id="contact"
-        className="bg-black bg-opacity-55 p-[40px] mb-52 md:p-16 mt-40 max-w-[600px] mx-8 md:mx-auto"
+        className="bg-black bg-opacity-55 p-[40px] mb-52 md:p-16 mt-40 max-w-[600px] mx-8 md:mx-auto text-white"
       >
         <h1 className="mb-9 text-2xl leading-[1.3em] font-bold md:text-3xl">
           I’M READY TO WORK WITH YOU TO DEVELOP SOMETHING EXCEPTIONAL.

@@ -46,7 +46,7 @@ function About() {
 
   return (
     <Hamburger targetSection={targetSection}>
-      <section className=" h-[91vh]" id="aboutText">
+      <section className="text-white h-[91vh]" id="aboutText">
         {isVisible && (
           <>
             <h1
@@ -62,7 +62,7 @@ function About() {
           </>
         )}
       </section>
-      <div ref={targetSection} className=" flex items-center justify-end">
+      <div ref={targetSection} className="text-white flex items-center justify-end">
         <p
           className="bg-black p-5 w-max font-semibold md:mr-10"
           id="check-scale"
@@ -71,7 +71,7 @@ function About() {
         </p>
       </div>
 
-      <section className="bg-black flex-row items-center justify-between py-60 gap-14 md:flex">
+      <section className="bg-black text-white flex-row items-center justify-between py-60 gap-14 md:flex">
         <div className="container w-full">
           <h1
             className="font-bold text-2xl mb-5 tracking-tighter"
@@ -148,7 +148,7 @@ function About() {
         </div>
       </section>
 
-      <section className=" items-center justify-between py-60 gap-14 flex-row space-y-20 md:flex md:space-y-0">
+      <section className="text-white items-center justify-between py-60 gap-14 flex-row space-y-20 md:flex md:space-y-0">
         <div className="container">
           <h1 className="font-bold text-2xl mb-5 tracking-tighter">
             DEVELOPMENT PROCESS
