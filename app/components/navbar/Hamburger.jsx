@@ -57,7 +57,7 @@ const Hamburger = ({ targetSection, children }) => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [showBurgerMenu]);
+  }, [showBurgerMenu, targetSection]);
 
   return (
     <>
@@ -76,7 +76,7 @@ const Hamburger = ({ targetSection, children }) => {
                 HOME
               </Link>
               {NavLinks.map((nav) => (
-                <div>
+                <div key={nav.title}>
                   <Link
                     href={nav.path}
                     key={nav.path}

@@ -81,7 +81,7 @@ function About() {
           </h1>
 
           <p className="mb-4 text-sm">
-            I'm a passionate web developer with experience on creating dynamic
+            I&apos;m a passionate web developer with experience on creating dynamic
             and interactive digital solutions. My expertise lies in API
             integration, a critical component of modern web development,
             ensuring that your applications are not only functional but also
@@ -102,7 +102,7 @@ function About() {
 
           <p className="mb-4 text-sm">
             I follow Agile methodologies, which allow me to adapt to your
-            project's evolving needs, ensuring that the final product is both
+            project&apos;s evolving needs, ensuring that the final product is both
             efficient and aligned with your vision. I believe in incremental
             development and continuous improvement, making sure that each
             iteration brings us closer to your desired outcome.
@@ -110,8 +110,8 @@ function About() {
           <p className="mb-4 text-sm">
             With a commitment to quality and user satisfaction, I strive to
             create solutions that not only meet but exceed expectations. Whether
-            you're looking to develop a new web application, enhance an existing
-            platform, or need expert guidance, I'm here to help turn your ideas
+            you&apos;re looking to develop a new web application, enhance an existing
+            platform, or need expert guidance, I&apos;m here to help turn your ideas
             into reality.
           </p>
         </div>
@@ -157,7 +157,7 @@ function About() {
           <p className="max-w-xl text-sm">
             My development approach is centered around a five-step creative process
             that prioritizes in-depth research. By placing the
-            user's needs at the forefront of every project, this process acts as
+            user&apos;s needs at the forefront of every project, this process acts as
             a strategic blueprint, guiding each step from concept to execution.
             This thoughtful and methodical approach ensures that the final
             outcome not only meets but exceeds expectations, serving as a clear

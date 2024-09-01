@@ -41,7 +41,7 @@ function Home() {
               MY NAME IS ABDURRAHMAN
             </h2>
             <h2 className="font-bold text-2xl pb-6 tracking-tight">
-              I'M <span className="text-slate-400"> A DEVELOPER.</span>
+              I&apos;M <span className="text-slate-400"> A DEVELOPER.</span>
             </h2>
 
             <p className="font-semibold pb-6">
@@ -128,8 +128,8 @@ function Home() {
         <p className="font-medium text-slate-100">
           Bringing your vision to life requires more than just technical
           skills—it takes a collaborative spirit, creativity, and a commitment
-          to excellence. Whether you're looking to build a robust web
-          application or explore creative design solutions, I'm here to partner
+          to excellence. Whether you&apos;re looking to build a robust web
+          application or explore creative design solutions, I&apos;m here to partner
           with you at every step, ensuring that the final product is not just
           functional, but truly exceptional.
         </p>
