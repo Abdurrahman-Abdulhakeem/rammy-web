@@ -119,7 +119,7 @@ function Home() {
 
       <ScalingSection
         id="contact"
-        className="bg-black bg-opacity-55 p-[40px] mb-52 md:p-16 mt-40 max-w-[600px] mx-8 md:mx-auto text-white"
+        className="bg-black bg-opacity-55 py-[40px] px-[30px] mb-52 md:p-16 mt-40 max-w-full md:max-w-[600px] mx-6 md:mx-auto text-white"
       >
         <h1 className="mb-9 text-2xl leading-[1.3em] font-bold md:text-3xl">
           I’M READY TO WORK WITH YOU TO DEVELOP SOMETHING EXCEPTIONAL.
