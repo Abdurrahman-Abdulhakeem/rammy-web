@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://abdurrahman.ng
+
+# Sitemaps
+Sitemap: https://abdurrahman.ng/sitemap.xml
