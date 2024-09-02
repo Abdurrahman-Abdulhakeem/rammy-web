@@ -115,7 +115,7 @@ function About() {
             into reality.
           </p>
         </div>
-        <div className="w-full container flex-row justify-center items-center gap-7 mt-20 md:flex md:mt-0">
+        {/* <div className="w-full container flex-row justify-center items-center gap-7 mt-20 md:flex md:mt-0">
           <ScalingSection>
             <Image
               src={"/rammy-dark.jpg"}
@@ -145,7 +145,7 @@ function About() {
               />
             </ScalingSection>
           </span>
-        </div>
+        </div> */}
       </section>
 
       <section className="text-white items-center justify-between py-60 gap-14 flex-row space-y-20 md:flex md:space-y-0">

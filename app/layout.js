@@ -33,8 +33,8 @@ export default function RootLayout({ children }) {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
 
-        <link rel="icon" href="/AA_logo.png" />
-        <link rel="apple-touch-icon" href="/AA_logo.png" />
+        <link rel="icon" href="/AA.jpg" />
+        <link rel="apple-touch-icon" href="/AA.jpg" />
         <meta
           name="keywords"
           content="Abdurrahman, abdulhakeem, abdulrahman, rammy, web developer, development, software development, programming, solutions, "
